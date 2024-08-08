@@ -250,3 +250,40 @@ img {
 .container-bg {
     text-align: center;
 }
+
+/*Products*/
+.products {
+    padding: 3rem 2rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+@media (min-width: 768px) {
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+    }
+}
+
+.products:last-of-type {
+    border: none;
+}
+
+.products__info {
+    text-align: left;
+    font-weight: nromal;
+}
+
+.products__label {
+    font-family: var(--fountHeading);
+    font-weight: bold;
+}
+
+.products__label, 
+.products__info {
+    font-size: 2rem;
+}
+
+.coldCoffe {
+    line-height: 1-5;
+}
