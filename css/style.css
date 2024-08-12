@@ -295,12 +295,110 @@ img {
     padding: 3rem;
 }
 
-/*Contact*/
+/* Contact */
+.contact-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        width: 100%;
+        background-color: var(--white);
+    }
+}
+
 .contact-bg {
     background-image: url(../img/contact-bg.jpg);
     height: 60rem;
-    margin: 2rem;
+    margin: 2rem 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    position: relative;
 }
+
+/* Form */
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Ancho inicial del formulario */
+}
+
+@media (min-width: 768px) {
+    .form {
+        width: 60%; /* Aumenta el ancho del formulario en pantallas grandes */
+        height: auto; /* Permite que el formulario crezca verticalmente si es necesario */
+        padding: 3rem; /* Incrementa el padding para dar más espacio interno */
+    }
+}
+
+.box {
+    margin-bottom: 1.5rem;
+}
+
+.box__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.box__field {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.box__field--textarea {
+    height: 10rem;
+}
+
+.button--primary {
+    background-color: var(--primaryColor);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Social Media */
+/* Redes Sociales */
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    gap: 5rem; /* Espacio entre los íconos */
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+}
+
+.nav_link--social {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+
+

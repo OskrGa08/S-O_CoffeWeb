@@ -36,27 +36,54 @@
         </div>
     </header>
 
-    <main class="container-bg">
-        <h3 class="text-align">Información de contacto</h3>
+    <main class="contact-container">
+        <h3 class="justify-text">Información de contacto</h3>
         <div class="contact-bg">
-            <form class="form">
+            <form class="form" >
                 <div class="box">
                     <label class="box__label" for="name">Nombre</label>
                     <input class="box__field" type="text" placeholder="Tu Nombre" id="name">
                 </div>
                 <div class="box">
-                    <label for="email">E-mail</label>
-                    <input type="email" placeholder="Tu E-mail" id="email">
+                    <label class="box__label" for="email">E-mail</label>
+                    <input class="box-field" type="email" placeholder="Tu E-mail" id="email">
                 </div>
                 <div class="box">
-                    <label for="message">Mensaje</label>
-                    <textarea name="" id="message"></textarea>
+                    <label class="box__label" for="message">Mensaje</label>
+                    <textarea class="box-field" name="" id="message"></textarea>
                 </div>
                 <div class="box">
                     <input type="submit" value="Enviar" class="buttom buttom--primary">
                 </div>
-            </form>
+            </form>            
         </div>
+        <div class="social-media">
+            <a class="nav_link--social" href="https://www.facebook.com/socoffe53" target="_blank" tex>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+                <p>S-O Coffe</p>
+            </a>
+            <a class="nav_link--social" href="https://www.instagram.com/s_ocoffe?igsh=MXkycmM3djd6NG4x" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M16.5 7.5l0 .01" />
+                </svg>
+                <p>@S-O Coffe</p>
+            </a>
+            <a class="nav_link--social" href="tel:+523424211272">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    <path d="M15 7a2 2 0 0 1 2 2" />
+                    <path d="M15 3a6 6 0 0 1 6 6" />
+                  </svg>
+                <p>342 421 1272</p>
+            </a>            
+        </div>        
     </main>
 
     <footer class="footer">
@@ -72,7 +99,6 @@
                 </nav>
             </div>
         </div>
-
     </footer>
 </body>
 </html>
