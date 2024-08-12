@@ -372,7 +372,6 @@ img {
 }
 
 /* Social Media */
-/* Redes Sociales */
 .social-media {
     display: flex;
     justify-content: center;
@@ -399,6 +398,16 @@ img {
     font-size: 1.8rem;
     color: var(--black);
 }
+
+.maps {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    @media (min-width: 768px) {
+        width: 100%;
+    }
+}
+
 
 
 
